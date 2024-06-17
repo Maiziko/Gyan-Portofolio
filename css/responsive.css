@@ -1,0 +1,121 @@
+@media screen and (max-width: 1200px) {
+    #hero p {
+        font-size: .9rem;
+        text-align: justify;
+    }
+
+    #hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .box{
+        padding: 40px 20px 50px;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width : 768px) {
+    #hero img {
+        width: 60%;
+    }
+
+    .navlist{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 255px;
+        min-height: 100vh;
+        flex-direction: column;
+        background: var(--mainColor);
+        transition: all .50s ease;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+    .navlist a {
+        display: block;
+        padding: 17px;
+        font-size: 20px;
+    }
+
+    .navlist.active{
+        right: 0;
+    }
+
+    .social-icon {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    #hero .row {
+        position: relative;
+    }
+
+    #skill .card h3 {
+        font-size: 1.3rem;
+
+    }
+
+    #skill .card{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        margin-top: 30px;
+    }
+
+    .about-img {
+        margin-bottom: 30px;
+    }
+
+    .center-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .box h3{
+        font-size: 1.3rem;
+    }
+
+    .box p {
+        font-size: .8rem;
+    }
+
+}
+
+@media screen and (max-width : 576px) {
+    #hero .row {
+        padding-bottom: 100px;
+    }
+
+    #hero p {
+        font-size: .8rem;
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .btn-custom1 {
+        width: 80%;
+    }
+
+    hr {
+        width: 75%;
+    }
+
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    footer p { 
+        font-size: .8rem;
+    }
+
+
+}
+
+@media screen and (max-width : 350px) {
+    #portofolio .col-md-12 {
+        flex-direction: column;
+    }
+}
