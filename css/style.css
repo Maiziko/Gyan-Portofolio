@@ -169,7 +169,7 @@ section h1{
 
 #hero {
     color: #fff;
-    min-height: 100vh;
+    min-height: 60vh;
     padding-top: 140px;
 }
 
@@ -250,7 +250,7 @@ hr {
 /* Galery Portofolio */
 
 #portofolio {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 #portofolio .container {
     padding: 80px 10px;
@@ -317,7 +317,7 @@ hr {
 }
 
 .services {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -393,7 +393,7 @@ hr {
 }
 
 .contact {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .contact-form {
